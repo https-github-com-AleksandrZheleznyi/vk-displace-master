@@ -1,7 +1,7 @@
 var IsMobilePlatform = false;
 
 let cachedConfigFile = null;
-let configUrl = 'https://spgames.s3.ap-south-1.amazonaws.com/displace-master/only-game-distribution/gamedistribution/0.1/RemoteConfig.json';
+let configUrl = 'https://spgames.s3.ap-south-1.amazonaws.com/displace-master/ru-stores/vkgames/0.1/RemoteConfig.json';
 var showedRewardVideo = false;
 var environment = {
     appId: "",
@@ -28,7 +28,7 @@ var environment = {
 
 // Localization
 var enabledDefaultLanguage = false;
-var defaultLanguageCode = "en";
+var defaultLanguageCode = "ru";
 
 // Config
 function LoadConfig(successCallback, errorCallback)
